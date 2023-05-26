@@ -21,46 +21,118 @@
 			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 			<div class="content">
 				<h1>Automatic Modulation Classification Using DL</h1>
+				Aasman Bashyal, Asim Maharjan, Basanta Rijal, Saju Khakurel
 				<br>
 				<p class="major">
 				<ul class="actions">
 					<li><a href="https://github.com/sajukhakurel074/Automatic_Modulation_Classification_Using_LSTM_Neural_Network"
 							class="button">Project Link</a></li>
 				</ul>
-				</p>
-
-			</div>
-			<!-- <div class="video">
-				<video controls src="SLAM.mp4" width="700" height="700"></video>
-			</div> -->
-		</section>
-
-		<section
-			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-			<div class="content">
-				<p class="major">
-
+				<ul class="actions">
+					<li><a href="Report.pdf" class="button">Project Report</a></li>
+				</ul>
 				</p>
 
 			</div>
 			<div class="image">
-				<!-- <img src="348389197_2445614715613611_3806244563333345333_n.png" alt="" /> -->
+				<img src="349357875_3645140085715800_7123175959947217109_n.png"></a>
 			</div>
 		</section>
 
-
 		<!-- Two -->
-		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-			id="first">
+
+		<section class="banner style1 orient-left content-align-left">
 			<div class="content">
-				<h1></h1>
-				<p class="major">
+				<p>
+					Automatic modulation classification (AMC) in the adaptive modulation system serves
+					the purpose of identifying the modulation scheme mostly according to the channel condition
+					and the other parameters in the channel for the efficient transmission of the signal.<br>
+					Deep learning techniques, which can automatically extract features, have been looked
+					at as probable approaches in the view of these considerations. AMC has been using these
+					2
+					techniques to automatically select the modulation classification and also to extract the features
+					for further processing for demodulation. To be more specific, Deep neural networks
+					(DNN) like Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN),
+					having multiple layers proved to be efficient in feature extraction. This improvement in performance
+					with DNN, techniques and the growing requirement of robust and highly efficient
+					communication systems is making a high demand in research of AMC. <br> </p>
+				<div class="image-position-center">
+					<img src="system.png">
+				</div>
+				<p>
+					<br>
+					Many different approaches
+					for AMC have been proposed which are categorized as ’Decision Theoretic Approach’, ’Feature Based
+					Approach’ and ’Deep Learning Based Approach’. For our project, we have implemented
+					various types of classifiers for AMC which include likelihood based approach, deep learning
+					based approaches (LSTM and BiLSTM networks) and also using a Quantum Neural Network
+					(QNN). The likelihood based classifier and the QNN are restricted to classify only two types
+					of modulations, namely BPSK and QPSK due to various limitation of those approaches.
+					The deep learning based classifiers can classify 11 different modualtion types from their IQ
+					samples in <a href="https://www.deepsig.ai/datasets"> RadioML2016.10A dataset</a>.
 
 				</p>
 
 			</div>
-
 		</section>
+
+		<section class="wrapper style1 align-center">
+
+			<h3><b><br>Different Neural Networks Models used in this project for the classification</b></h3>
+			<!--Gallery-->
+			<div class="gallery style2 medium lightbox onscroll-fade-in">
+				<article>
+					<a href="LSTM.png" class="image">
+						<img src="LSTM.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>LSTM Model</h3>
+						<p>A single Long short-term memory cell architecture</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Open</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="Bi-LSTM.png" class="image">
+						<img src="Bi-LSTM.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Bi-LSTM Model</h3>
+						<p>Bi-directional Long short-term memory layers</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Open</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="Bi_LSTM with Attention.png" class="image">
+						<img src="Bi_LSTM with Attention.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Bi-LSTM with Attention Layer Model</h3>
+						<p>Bi-Directional Long short-term memory with Attention Layer Model</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Open</span></li>
+						</ul>
+					</div>
+				</article>
+
+				<article>
+					<a href="CNN.png" class="image">
+						<img src="CNN.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>CNN Model</h3>
+						<p>Convolution Neural Network Model</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Open</span></li>
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+
 
 	</div>
 
